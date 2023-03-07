@@ -59,8 +59,8 @@ enum {
 @implementation Game
 
 + (CCScene*)scene {
-	CCScene *scene = [CCScene node];
-	[scene addChild:[Game node]];
+
+	// return the scene
 	return scene;
 }
 
